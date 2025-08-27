@@ -7,3 +7,6 @@ hello_world() {
 
 # You can also define aliases
 alias hw='hello_world'
+
+# Add this plugin's completions to fpath
+fpath+=("${0:A:h}/completions")

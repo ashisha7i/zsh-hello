@@ -1,0 +1,4 @@
+#compdef hello_world hw
+
+_arguments \
+  "1: :((greet:'Say hello' farewell:'Say goodbye'))"
